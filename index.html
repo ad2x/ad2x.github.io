@@ -28,6 +28,15 @@
             enabled: true,
           },
         });
+
+        const audio = new Audio("dingeffect.mp3");
+        const buttons = document.querySelectorAll("button");
+
+        buttons.forEach(button => {
+          button.addEventListener("click", () => {
+            audio.play();
+          });
+        });
     </script>
 
     <header class="title">Chess in the Park on the Web!</header>
