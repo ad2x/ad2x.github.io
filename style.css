@@ -229,6 +229,13 @@ h2 {
   height: 150px;
 
   font-size: 30px;
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 5px;
+
+  margin-top: 150px;
 }
 
 .turnbutton.toggled::after {
@@ -238,4 +245,17 @@ h2 {
 .turnbutton.toggled {
   color: white;
   background-color: black;
+  border-color: white;
+}
+
+#chatbox {
+  width: 300px;
+  height: 100px;
+
+  margin-top: 100px;
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 5px;
 }
