@@ -226,6 +226,9 @@ h2 {
 
   text-align: center;
 
+  background-image: url("images/woodtexture.jpg");
+  background-size: contain;
+
   padding-left: 50px;
   padding-right: 50px;
 }
